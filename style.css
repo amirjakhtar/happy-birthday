@@ -1,0 +1,93 @@
+body, html{
+	margin: 0px;
+	/*width: 100vw;*/
+	font-family: 'Playfair Display', serif;
+	color: #252525;
+}
+
+.heading {
+	display: flex;
+	margin-top: 0px;
+	background-color: lightpink;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 2.8rem;
+	text-align: center;
+	box-shadow: 5px 5px 25px #444;
+}
+
+
+.division {
+	height: 80vh;
+	background-color: red;
+	text-align: center;
+}
+
+h1 {
+	/*background-color: pink;*/
+	/*margin-top: 0px;*/
+	/*padding: 20px;*/
+	font-weight: 200;
+	padding-left: 3vh;
+	/*box-shadow: 3px 3px 10px a;*/
+}
+
+.image {
+	align-self: flex-end;
+	justify-content: flex-end;
+	margin: 5vh;
+	/*box-shadow: 3px 3px 10px yellow;*/
+}
+
+.essay {
+	font-size: 2rem;
+}
+
+.img1 {
+	text-align: center;
+	width: 100vw;
+	/*height: 70vh;*/
+	background-color: white;
+	margin: 50px;
+	box-shadow: 8px 8px 40px #444;
+	border-radius: 20px;
+}
+
+.img11 {
+	width: 75vw;
+	padding-top: 6.5vh;
+	padding-bottom: 6.5vh;
+}
+
+.gridder {
+	display: flex;
+	flex-flow: row wrap;
+	/*background-color: lightblue;*/
+}
+
+/*span {
+	font-size: 1rem;
+}*/
+
+p {
+	/*text-align: center;*/
+	margin: 5vw;
+	
+}
+
+.buffer {
+	height: 100vh;
+	font-size: 15rem;
+	display: flex;
+	text-align: center;
+	align-items: center; 
+}
+
+footer {
+	margin-top: 12vh;
+	padding: 3.2vh;
+	background-color: lightpink;
+	text-align: center;
+	font-size: 3rem;
+}
